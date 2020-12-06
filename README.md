@@ -3,7 +3,8 @@
 sudo docker-compose up , <br>
 sudo docker exec -it  citrus_php_1 bash , <br>
 cd /code ,<br>
-composer update .
+composer update ,<br>
+composer dump-autoload .
 
 
 In the config.php file you can change database credentials.<br>
